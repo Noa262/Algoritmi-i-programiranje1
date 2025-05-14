@@ -1,0 +1,14 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    int p[100];
+    for(int i=0;i<100;i++)
+        p[i]=i;
+    for(int i=100;i>=0;i--)
+        cout<<p[i]<<endl;
+
+    return 0;
+}
